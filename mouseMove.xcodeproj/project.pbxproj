@@ -12,6 +12,7 @@
 		81AF18141B48B8CB00F93490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81AF18131B48B8CB00F93490 /* Images.xcassets */; };
 		81AF18171B48B8CB00F93490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AF18151B48B8CB00F93490 /* Main.storyboard */; };
 		81AF18231B48B8CB00F93490 /* mouseMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AF18221B48B8CB00F93490 /* mouseMoveTests.swift */; };
+		81B7F78F1B4B2B5C006EA472 /* MouseServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7F78E1B4B2B5C006EA472 /* MouseServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		81AF181C1B48B8CB00F93490 /* mouseMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mouseMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AF18211B48B8CB00F93490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81AF18221B48B8CB00F93490 /* mouseMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mouseMoveTests.swift; sourceTree = "<group>"; };
+		81B7F78E1B4B2B5C006EA472 /* MouseServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouseServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				81AF18131B48B8CB00F93490 /* Images.xcassets */,
 				81AF18151B48B8CB00F93490 /* Main.storyboard */,
 				81AF180D1B48B8CB00F93490 /* Supporting Files */,
+				81B7F78E1B4B2B5C006EA472 /* MouseServiceManager.swift */,
 			);
 			path = mouseMove;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				81AF18121B48B8CB00F93490 /* ViewController.swift in Sources */,
 				81AF18101B48B8CB00F93490 /* AppDelegate.swift in Sources */,
+				81B7F78F1B4B2B5C006EA472 /* MouseServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +404,7 @@
 				81AF18281B48B8CB00F93490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81AF18291B48B8CB00F93490 /* Build configuration list for PBXNativeTarget "mouseMoveTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				81AF182B1B48B8CB00F93490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
