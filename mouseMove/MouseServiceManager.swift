@@ -13,7 +13,7 @@ protocol MouseServiceManagerDelegate {
     
     func connectedDevicesChanged(manager : MouseServiceManager, connectedDevices: [String])
     func colorChanged(manager : MouseServiceManager, colorString: String)
-    
+    func xChanged(manager : MouseServiceManager, xString: String)
 }
 
 class MouseServiceManager : NSObject {
@@ -118,7 +118,8 @@ extension MouseServiceManager : MCSessionDelegate {
     func session(session: MCSession!, didReceiveData data: NSData!, fromPeer peerID: MCPeerID!) {
         NSLog("%@", "didReceiveData: \(data.length) bytes")
         let str = NSString(data: data, encoding: NSUTF8StringEncoding) as! String
-        self.delegate?.colorChanged(self, colorString: str)
+        //self.delegate?.colorChanged(self, colorString: str)
+        self.delegate?.xChanged(self, xString: str)
     }
     
     func session(session: MCSession!, didReceiveStream stream: NSInputStream!, withName streamName: String!, fromPeer peerID: MCPeerID!) {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34264E26-6795-4E3F-A8AF-9A64AA13342C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mouseMove</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7576B422D19AF67235D4B19914A20D69311056E2</key>
+		<string>https://github.com/tomwilding/mouseMove.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mouseMove.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7576B422D19AF67235D4B19914A20D69311056E2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tomwilding/mouseMove.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7576B422D19AF67235D4B19914A20D69311056E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7576B422D19AF67235D4B19914A20D69311056E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mouseMove</string>
+		</dict>
+	</array>
+</dict>
+</plist>
